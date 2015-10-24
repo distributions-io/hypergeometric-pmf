@@ -4,16 +4,16 @@ Probability Mass Function
 
 > [Hypergeometric](https://en.wikipedia.org/wiki/Hypergeometric_distribution) distribution probability mass function (PMF).
 
-The [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) (PMF) for a [hypergeometric](https://en.wikipedia.org/wiki/Hypergeometric_distribution) random variable is
+Imagine a scenario with an urn holding black and white balls. Let `m` be the number of white balls in the urn and `n` be the number of black balls. We draw `k` balls from the urn. Defining the random variable `X` as the number of white balls drawn in total, `X` is said to follow a [hypergeometric distribution](https://en.wikipedia.org/wiki/Hypergeometric_distribution).
+The [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) (PMF) for a [hypergeometric](https://en.wikipedia.org/wiki/Hypergeometric_distribution) random variable is given by
 
 <div class="equation" align="center" data-raw-text="f(x;m,n,k)=P(X=x;m,n,k)=\begin{cases} {{{m \choose x} {n \choose {k-x}}}\over {{m+n} \choose k}} & \text{ for } x = 0,1,2,\ldots \\
 0 & \text{ otherwise}
 \end{cases}" data-equation="eq:pmf_function">
-	<img src="" alt="Probability mass function (PMF) for a Hypergeometric distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/hypergeometric-pmf/11808021111172c2b0f1a881f93ed577232caf66/docs/img/eqn.svg" alt="Probability mass function (PMF) for a Hypergeometric distribution.">
 	<br>
 </div>
 
-where `m` is the number of white balls in urn and `n` is the number of black balls in urn and `k` is the number of draws.
 
 ## Installation
 
